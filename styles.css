@@ -1,11 +1,13 @@
 
 nav{
     border-radius: 10px;
+    opacity: 0;
     margin-left: auto;
     margin-right: auto;
     position: relative;
     top: 10px;
-    width: 90vw;
+    width: 0;
+    transition: all 1s ease-in-out;
 }
 .care{
     opacity: 0;
@@ -57,5 +59,5 @@ p.desc{
 }
 .care:hover{
     transform: scale(1.1);
-    box-shadow: 5px 5px gray;
+    box-shadow: 50px 50px gray;
 }
