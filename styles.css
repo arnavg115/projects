@@ -8,6 +8,7 @@ nav{
     width: 90vw;
 }
 .care{
+    opacity: 0;
     display: inline-block;
     position: relative;
     margin-top: 30px;
